@@ -107,6 +107,8 @@ class buscarLibro: UIViewController, UINavigationControllerDelegate {
         
         if (libroElejido != "NA" && libroElejido != ""){
             txtParametro.text = libroElejido
+            sincrono()
+
         }else{
             txtParametro.text = ""
         }
